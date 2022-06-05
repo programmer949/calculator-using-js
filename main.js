@@ -22,7 +22,7 @@ const computer = () => {
   } catch {
     display.innerText = "Error";
     setTimeout(() => {
-      display.innerText = "";
+      clearAll();
     }, 500);
   }
 };
