@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Calculator</title>
-  </head>
-  <body>
-    <main>
-      <div class="display"></div>
-      <div class="buttons">
-        <button class="big" onclick="clearAll()">AC</button>
-        <button class="clear">C</button>
-        <button onclick="addToDisplay(this)">-</button>
-        <button class="number" onclick="addToDisplay(this)">1</button>
-        <button class="number" onclick="addToDisplay(this)">2</button>
-        <button class="number" onclick="addToDisplay(this)">3</button>
-        <button onclick="addToDisplay(this)">+</button>
-        <button class="number" onclick="addToDisplay(this)">4</button>
-        <button class="number" onclick="addToDisplay(this)">5</button>
-        <button class="number" onclick="addToDisplay(this)">6</button>
-        <button onclick="addToDisplay(this)">&times;</button>
-        <button class="number" onclick="addToDisplay(this)">7</button>
-        <button class="number" onclick="addToDisplay(this)">8</button>
-        <button class="number" onclick="addToDisplay(this)">9</button>
-        <button onclick="addToDisplay(this)">&divide;</button>
-        <button class="zero" class="number" onclick="addToDisplay(this)">
-          0
-        </button>
-        <button class="compute" onclick="computer()">=</button>
-      </div>
-    </main>
-    <script type="text/javascript" src="./main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Calculator</title>
+</head>
+
+<body>
+  <main>
+    <div class="display"></div>
+    <div class="buttons">
+      <button class="big bold" onclick="clearAll()">AC</button>
+      <button class="clear bold">C</button>
+      <button onclick="addToDisplay(this)">+</button>
+      <button class="number" onclick="addToDisplay(this)">1</button>
+      <button class="number" onclick="addToDisplay(this)">2</button>
+      <button class="number" onclick="addToDisplay(this)">3</button>
+      <button onclick="addToDisplay(this)">-</button>
+      <button class="number" onclick="addToDisplay(this)">4</button>
+      <button class="number" onclick="addToDisplay(this)">5</button>
+      <button class="number" onclick="addToDisplay(this)">6</button>
+      <button onclick="addToDisplay(this)">&times;</button>
+      <button class="number" onclick="addToDisplay(this)">7</button>
+      <button class="number" onclick="addToDisplay(this)">8</button>
+      <button class="number" onclick="addToDisplay(this)">9</button>
+      <button onclick="addToDisplay(this)">&divide;</button>
+      <button class="number" onclick="addToDisplay(this)">.</button>
+      <button class="number" onclick="addToDisplay(this)">
+        0
+      </button>
+      <button class="number" onclick="addToDisplay(this)">%</button>
+      <button class="compute" onclick="computer()">=</button>
+    </div>
+  </main>
+  <script type="text/javascript" src="./main.js"></script>
+</body>
+
 </html>
