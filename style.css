@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 html,
@@ -12,8 +12,6 @@ body {
     height: 100%;
     width: 100%;
     background-color: black;
-    height: 100%;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +22,7 @@ main {
     width: 300px;
     display: flex;
     flex-direction: column;
-    background-color: #52ab98;
+    background-color: #8bc34a;
     border-radius: 8px;
     overflow: hidden;
     padding: 18px;
@@ -33,13 +31,16 @@ main {
 .display {
     width: 100%;
     height: 100px;
-    background-color: white;
+    background-color: #395f0d;
     margin-bottom: 12px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    color: white;
     padding: 0 14px;
     border-radius: 4px;
+    word-break: break-all;
+    overflow-x: hidden;
 }
 
 .buttons {
@@ -51,22 +52,24 @@ main {
 }
 
 button {
-    background: white;
+    background: #5b9617;
     border: none;
-    transition: .5s;
+    transition: 0.5s;
     cursor: pointer;
     font-size: 16px;
     border-radius: 4px;
+    color: white;
+    outline: none;
 }
 
 button:hover {
-    opacity: .9;
+    background-color: #395f0d;
 }
 
 .big {
     grid-column: 1/3;
 }
 
-.zero {
-    grid-column: 1/4;
+.bold {
+    font-weight: 600;
 }
